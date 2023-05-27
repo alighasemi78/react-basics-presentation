@@ -1,0 +1,27 @@
+.calculator * {
+  font-family: sans-serif;
+}
+
+.calculator input,
+.calculator button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.calculator input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.calculator button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+
+.calculator button:nth-last-child(2),
+.calculator button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
